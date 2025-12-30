@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> func(vector<int> &arr)
+vector<int> func(const vector<int> &arr)
 {
     int n = arr.size();
     int product = 1;
