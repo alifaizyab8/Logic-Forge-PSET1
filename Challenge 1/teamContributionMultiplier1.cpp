@@ -12,7 +12,7 @@ vector<int> func(vector<int> &arr)
         multiplier = 1;
         for (int j = 0; j < s; j++)
         {
-            if (arr[i] == arr[j])
+            if (i == j)
             {
                 continue;
             }
